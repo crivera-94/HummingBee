@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>console</OriginalElement>
+  <nodes>
+    <node x="-529.9999999999998" y="1052.0">main.HummingBee</node>
+    <node x="420.6666666666672" y="-135.99999999999903">schedule.Time</node>
+    <node x="-773.3333333333329" y="-149.9999999999999">console.userInterface</node>
+    <node x="1580.6666666666658" y="4.000000000000682">location.Area</node>
+    <node x="664.0" y="1019.5">schedule.Clock</node>
+    <node x="-773.9999999999993" y="930.666666666667">console.BarChart</node>
+    <node x="399.33333333333326" y="755.3333333333334">schedule.Weekday</node>
+    <node x="1004.0000000000002" y="678.6666666666669">manager.TemperatureManager</node>
+    <node x="1072.5" y="0.0">manager.Base</node>
+    <node x="306.0000000000002" y="505.6666666666672">manager.TimeManager</node>
+    <node x="1477.333333333333" y="448.66666666666686">sprinkler.Sprinkler</node>
+    <node x="1216.6666666666667" y="1172.9999999999998">manager.RegionManager</node>
+    <node x="93.33333333333337" y="934.0000000000002">manager.WaterManager</node>
+    <node x="404.66666666666686" y="72.33333333333388">schedule.TimePair</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.HummingBee" target="console.userInterface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="schedule.Clock" target="schedule.Weekday">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="console.userInterface" target="console.BarChart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.RegionManager" target="manager.Base">
+      <point x="0.0" y="-92.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="manager.Base" target="location.Area">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.RegionManager" target="manager.TimeManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="schedule.TimePair" target="schedule.Time">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.Base" target="sprinkler.Sprinkler">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.HummingBee" target="schedule.Clock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.TimeManager" target="schedule.Weekday">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="schedule.Clock" target="main.HummingBee">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.HummingBee" target="manager.WaterManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.WaterManager" target="schedule.Weekday">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.RegionManager" target="manager.TemperatureManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="manager.TimeManager" target="schedule.TimePair">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="console.userInterface" target="schedule.Time">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="sprinkler.Sprinkler" target="location.Area">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="main.HummingBee" target="manager.RegionManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="console.userInterface" target="main.HummingBee">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="437.66666666666583" y="726.2499999999998" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
