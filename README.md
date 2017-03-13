@@ -1,6 +1,6 @@
-COEN 160 Object Oriented Analysis and Design
+# COEN 160 Object Oriented Analysis and Design
 
-HummingBee Final Project
+## HummingBee Final Project
 Names:  Carlos Rivera
         Isaac Jorgensen
 Date:   12/6/16
